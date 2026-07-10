@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate to HopeBridge | Secure NGO Giving</title>
+    <meta
+      name="description"
+      content="Make a secure donation to HopeBridge NGO for schools, orphanages, and street children. Choose your cause and payment method."
+    />
+    <meta name="keywords" content="donation form, paypal, card payment, NGO payment, charity contribution" />
+    <meta property="og:title" content="Donate to HopeBridge NGO" />
+    <meta property="og:description" content="Choose a cause, enter an amount, and help transform lives through secure donation payments." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Cpath d='M18 30c0-8 6-14 14-14s14 6 14 14-6 14-14 14-14-6-14-14Zm12-8c-3 0-5 2-5 5v3h-3v4h3v6h4v-6h4v-4h-4v-3c0-1 1-2 2-2h4v-4h-4Z' fill='%23fef3c7'/%3E%3C/svg%3E" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+    <header class="border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="flex items-center gap-3 font-semibold text-slate-900">
+          <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-teal-600 via-emerald-500 to-amber-400 shadow-lg shadow-teal-600/20">
+            <svg viewBox="0 0 64 64" class="h-6 w-6" aria-hidden="true">
+              <rect width="64" height="64" rx="16" fill="#fff7ed"></rect>
+              <path d="M18 50V28c0-7 5-12 12-12h4c7 0 12 5 12 12v22" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"></path>
+              <path d="M24 24l8-8 8 8" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+              <circle cx="32" cy="32" r="6" fill="#2563eb"></circle>
+              <path d="M24 44h16" stroke="#ef4444" stroke-width="4" stroke-linecap="round"></path>
+            </svg>
+          </span>
+          <span class="text-lg">HopeBridge</span>
+        </a>
+        <div class="flex items-center gap-2">
+          <nav class="hidden items-center gap-3 text-sm font-medium md:flex">
+            <a href="index.html" class="hover:text-teal-700">Home</a>
+            <a href="contact.html" class="hover:text-teal-700">Contact</a>
+            <a href="donation.html" class="text-teal-700">Donate</a>
+            <a href="admin/" class="inline-flex items-center gap-2 rounded-full border border-teal-600 bg-teal-700 px-4 py-2 text-white transition hover:bg-teal-800">
+              <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="4" y="10" width="16" height="10" rx="2"></rect>
+                <path d="M8 10V8a4 4 0 1 1 8 0v2"></path>
+              </svg>
+              Admin Portal
+            </a>
+          </nav>
+          <button type="button" class="mobile-menu-button inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 transition hover:bg-slate-100 md:hidden" aria-label="Toggle navigation" aria-expanded="false">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 7h16" stroke-linecap="round"></path>
+              <path d="M4 12h16" stroke-linecap="round"></path>
+              <path d="M4 17h16" stroke-linecap="round"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav hidden border-t border-slate-200 bg-white px-4 py-4 sm:px-6 md:hidden">
+        <div class="flex flex-col gap-3 text-sm font-medium">
+          <a href="index.html" class="rounded-2xl px-3 py-2 text-slate-700 hover:bg-slate-100 hover:text-teal-700">Home</a>
+          <a href="contact.html" class="rounded-2xl px-3 py-2 text-slate-700 hover:bg-slate-100 hover:text-teal-700">Contact</a>
+          <a href="donation.html" class="rounded-2xl px-3 py-2 text-slate-700 hover:bg-slate-100 hover:text-teal-700">Donate</a>
+          <a href="admin/" class="inline-flex items-center gap-2 rounded-full border border-teal-600 bg-teal-700 px-4 py-2 text-white transition hover:bg-teal-800">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="4" y="10" width="16" height="10" rx="2"></rect>
+              <path d="M8 10V8a4 4 0 1 1 8 0v2"></path>
+            </svg>
+            Admin Portal
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div class="mb-8 sm:mb-10">
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-teal-700">Donation payment</p>
+        <h1 class="mt-3 text-3xl font-semibold text-slate-900 sm:text-4xl">Your generosity can change a life</h1>
+        <p class="mt-4 max-w-2xl text-base text-slate-600 sm:text-lg">Select a cause, enter an amount, and complete the secure form below to support our mission in Madagascar.</p>
+      </div>
+
+      <div class="grid gap-6 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
+        <div class="space-y-6">
+          <div class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+            <div class="relative h-48 sm:h-56">
+              <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80" alt="Children and volunteers receiving support from an NGO" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent"></div>
+              <div class="absolute bottom-0 p-4 text-white sm:p-6">
+                <p class="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300">Secure giving</p>
+                <h2 class="mt-2 text-xl font-semibold sm:text-2xl">Support real programs in Madagascar</h2>
+              </div>
+            </div>
+            <div class="p-4 sm:p-6">
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-teal-700">Support programs</p>
+              <div class="mt-4 flex flex-wrap gap-2 sm:gap-3" id="causeTabs">
+                <button type="button" class="cause-tab rounded-full border border-teal-600 bg-teal-600 px-3 py-2 text-sm font-semibold text-white sm:px-4" data-target="school">School Support</button>
+                <button type="button" class="cause-tab rounded-full border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 sm:px-4" data-target="orphanage">Orphanage Care</button>
+                <button type="button" class="cause-tab rounded-full border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 sm:px-4" data-target="street">Street Children</button>
+                <button type="button" class="cause-tab rounded-full border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 sm:px-4" data-target="food">Food Relief</button>
+                <button type="button" class="cause-tab rounded-full border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 sm:px-4" data-target="medical">Medical Outreach</button>
+              </div>
+              <div class="mt-6 rounded-2xl bg-slate-50 p-4 text-sm text-slate-600 sm:p-5">
+                <p id="causeSummary">You are supporting school programs and classroom improvements.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6 lg:sticky lg:top-6 lg:p-8">
+          <form id="donationForm" novalidate>
+            <div class="grid gap-6 md:grid-cols-1">
+              <div>
+                <label class="mb-2 block text-sm font-medium text-slate-700" for="donationAmount">Amount to Donate (USD)</label>
+                <input id="donationAmount" name="donationAmount" type="number" min="1" step="any" class="input" placeholder="$100" />
+                <p class="mt-2 text-xs text-slate-500">Enter any amount in USD that feels right for you.</p>
+                <p class="error-text" data-error-for="donationAmount"></p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <label class="mb-2 block text-sm font-medium text-slate-700">Contribution Method</label>
+              <div class="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <label class="payment-option rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700">
+                  <input type="radio" name="paymentMethod" value="card" class="mr-2" />Credit / Debit / Mastercard
+                </label>
+                <label class="payment-option rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700">
+                  <input type="radio" name="paymentMethod" value="paypal" class="mr-2" />PayPal
+                </label>
+              </div>
+              <p class="mt-2 text-xs text-slate-500">Example: Card 4242 4242 4242 4242 • CVC 123 • Expiry 12/30</p>
+              <div id="cardPaymentPanel" class="mt-5 hidden rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                <div class="mb-4 flex items-center justify-between">
+                  <p class="text-sm font-semibold text-slate-800">Secure card payment</p>
+                  <div class="flex gap-2">
+                    <span class="rounded-full bg-white px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-500 shadow-sm">Visa</span>
+                    <span class="rounded-full bg-white px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-500 shadow-sm">Mastercard</span>
+                  </div>
+                </div>
+                <div class="grid gap-4 md:grid-cols-2">
+                  <div class="md:col-span-2">
+                    <label class="mb-2 block text-sm font-medium text-slate-700" for="cardNumber">Card Number</label>
+                    <input id="cardNumber" name="cardNumber" type="text" class="input" placeholder="4242 4242 4242 4242" inputmode="numeric" maxlength="19" />
+                    <p class="error-text" data-error-for="cardNumber"></p>
+                  </div>
+                  <div class="md:col-span-2">
+                    <label class="mb-2 block text-sm font-medium text-slate-700" for="cardName">Cardholder Name</label>
+                    <input id="cardName" name="cardName" type="text" class="input" placeholder="Jane Doe" />
+                    <p class="error-text" data-error-for="cardName"></p>
+                  </div>
+                  <div>
+                    <label class="mb-2 block text-sm font-medium text-slate-700" for="cardExpiry">Expiry</label>
+                    <input id="cardExpiry" name="cardExpiry" type="text" class="input" placeholder="MM/YY" inputmode="numeric" maxlength="5" />
+                    <p class="error-text" data-error-for="cardExpiry"></p>
+                  </div>
+                  <div>
+                    <label class="mb-2 block text-sm font-medium text-slate-700" for="cardCvc">CVC</label>
+                    <input id="cardCvc" name="cardCvc" type="text" class="input" placeholder="123" inputmode="numeric" maxlength="3" />
+                    <p class="error-text" data-error-for="cardCvc"></p>
+                  </div>
+                </div>
+              </div>
+             
+              <p class="error-text" data-error-for="paymentMethod"></p>
+            </div>
+            <div class="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
+              <p><span class="font-semibold">Selected cause:</span> <span id="selectedCauseLabel">School Support</span></p>
+              <p class="mt-2"><span class="font-semibold">Amount selected:</span> <span id="selectedAmountLabel">$0</span></p>
+            </div>
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+              <button id="payButton" type="submit" class="w-full rounded-full bg-teal-700 px-6 py-3 font-semibold text-white transition hover:bg-teal-800 disabled:cursor-not-allowed disabled:bg-slate-400 sm:w-auto" disabled>
+                Pay Securely
+              </button>
+              <a href="index.html" class="w-full rounded-full border border-slate-300 px-6 py-3 text-center font-semibold text-slate-700 transition hover:bg-slate-100 sm:w-auto">Back Home</a>
+            </div>
+            <div id="donationSuccess" class="mt-6 hidden rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700"></div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-600 md:flex-row md:items-center md:justify-between lg:px-8">
+        <p>© 2026 HopeBridge NGO. Building brighter futures in Madagascar.</p>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="contact.html" class="hover:text-teal-700">Contact</a>
+          <a href="index.html" class="hover:text-teal-700">Home</a>
+          <a href="admin/" class="hover:text-teal-700">Admin</a>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3H13.5V3.8c0-.9.2-1.5 1.5-1.5h1.6V.1C16.4.1 15.4 0 14.2 0c-2.3 0-3.9 1.4-3.9 4v2.2H7.6v3h2.7v8h3.2z"></path></svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.5"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.5 9.74h2.88V18H5.5zM10.38 9.74h2.76v1.12h.04c.38-.72 1.32-1.48 2.72-1.48 2.9 0 3.44 1.91 3.44 4.39V18H16.9v-7.79c0-1.86-.03-4.25-2.59-4.25-2.59 0-2.99 2.02-2.99 4.11V18H10.38z"></path></svg>
+          </a>
+          <a href="https://x.com" target="_blank" rel="noreferrer" class="social-link" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-6.7 7.7L23.3 22h-5.7l-4.5-5.9L7.8 22H4.7l7.2-8.2L.7 2h5.8l4.1 5.4L18.9 2z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
